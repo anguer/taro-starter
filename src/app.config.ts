@@ -1,9 +1,6 @@
 // 全局配置，参考：https://docs.taro.zone/docs/app-config
 export default defineAppConfig({
-  pages: [
-    'pages/home/index',
-    'pages/me/index',
-  ],
+  pages: ['pages/home/index', 'pages/me/index'],
   // 设置小程序的状态栏、导航条、标题、窗口背景色，默认配置参考：https://docs.taro.zone/docs/app-config#window
   window: {
     // 导航栏背景颜色，如 #000000
@@ -56,7 +53,7 @@ export default defineAppConfig({
         text: 'Me',
         iconPath: 'assets/images/tabs/me_fill.png',
         selectedIconPath: 'assets/images/tabs/me_fill.png',
-      }
+      },
     ],
     // tabBar 的位置，仅支持 bottom / top
     position: 'bottom',
@@ -76,4 +73,4 @@ export default defineAppConfig({
   debug: false,
   // 小程序接口权限相关设置
   permission: {},
-})
+});

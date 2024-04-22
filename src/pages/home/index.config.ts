@@ -28,4 +28,4 @@ export default definePageConfig({
   // enableShareTimeline: false,
   // 页面自定义组件配置
   // usingComponents: {},
-})
+});
