@@ -26,7 +26,7 @@
     "dev:harmony-hybrid": "npm run build:harmony-hybrid -- --watch",
     "taro": "taro",
     "postinstall": "weapp-tw patch",
-    "lint": "eslint \"{src,tests}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "lint": "eslint . --fix",
     "prepare": "husky || true",
     "reinstall": "rimraf bun.lockb && rimraf pnpm-lock.yaml && rimraf node_modules && pnpm install",
     "release": "semantic-release"
@@ -36,7 +36,7 @@
     "Android >= 4.1",
     "ios >= 8"
   ],
-  "author": "",
+  "author": "Anguer",
   "dependencies": {
     "@babel/runtime": "^7",
     "@tarojs/components": "3",

@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 export default {
   content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
@@ -8,6 +8,6 @@ export default {
   plugins: [],
   corePlugins: {
     // 小程序不需要 preflight，因为这主要是给 h5 的，如果你要同时开发多端，你应该使用 process.env.TARO_ENV 环境变量来控制它
-    preflight: false
-  }
-} satisfies Config
+    preflight: false,
+  },
+} satisfies Config;

@@ -10,7 +10,7 @@ module.exports = {
   env: {
     node: true,
   },
-  ignorePatterns: ['node_modules', '.*rc.*'],
+  ignorePatterns: ['node_modules', 'dist', '.*rc.*', '*.config.js'],
   rules: {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',

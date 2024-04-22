@@ -17,14 +17,12 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "resolveJsonModule": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "typeRoots": ["node_modules/@types"],
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": ["./src", "./types", "./config"],
+  "include": ["src", "types", "config", "tailwind.config.ts"],
   "compileOnSave": false
 }
